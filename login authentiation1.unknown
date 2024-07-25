@@ -1,0 +1,32 @@
+import hashlib
+import getpass
+
+# Create a dictionary to store user credentials
+users = {}
+
+def register():
+    username = input("Enter a username: ")
+    password = getpass.getpass("Enter a password: ")
+    hashed_password = hashlib.sha256(password.encode()).hexdigest()
+    users[username] = hashed_password
+    print("User registered successfully!")
+
+def login():
+    username = input("Enter your username: ")
+    password = getpass.getpass("Enter your password: ")
+    hashed_password = hashlib.sha256(password.encode()).hexdigest()
+    if username in users and users[username] == hashed_password:
+        print("Login successful!")
+    else:
+        print("Invalid credentials. Please try again.")
+
+while True:
+    print("1. Register")
+    print("2. Login")
+    choice = input("Enter your choice: ")
+    if choice == "1":
+        register()
+    elif choice == "2":
+        login()
+    else:
+        print("Invalid choice. Please try again.")

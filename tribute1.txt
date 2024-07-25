@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mahesh Babu Admiration Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2>Mahesh babu</h2>
+    </header>
+    <main>
+        <section id="about">
+        </section>
+        <section id="images">
+            <h2></h2>
+            <img src="https://wallpaperaccess.com/full/8675210.jpg"alt="Image of Mahesh Babu" width="600"height="500">
+        </section>
+        <section id="quotes">
+            <h2>Biography</h2>
+            <blockquote>
+                <p>"Ghattamaneni Mahesh Babu (born 9 August 1975) is an Indian actor, film producer, media personality, and philanthropist who works in Telugu cinema. He is one of the highest-paid actors in Indian cinema. He has appeared in more than 25 films, and has won several accolades including, nine Nandi Awards, five Filmfare Telugu Awards, four SIIMA Awards, three CineMAA Awards, and one IIFA Utsavam Award. He also owns the production house G. Mahesh Babu Entertainment. He is referred to in the media and by his fans as "Superstar"."</p>
+                <cite>- Mahesh Babu</cite>
+            </blockquote>
+           
+        </section>
+    </main>
+    <footer>
+        <p>Created with love by [sadha]</p>
+    </footer>
+</body>
+</html>
